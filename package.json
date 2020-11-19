@@ -1,0 +1,25 @@
+{
+  "name": "sentry-primer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "[mediba] Satoshi Takeda <takeda@mediba.jp>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@sentry/browser": "^5.27.4",
+    "@sentry/node": "^5.27.4",
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@sentry/webpack-plugin": "^1.13.0",
+    "@types/node": "^14.14.8",
+    "@types/react": "^16.9.56",
+    "@zeit/next-source-maps": "^0.0.3",
+    "typescript": "^4.0.5"
+  }
+}
